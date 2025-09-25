@@ -57,7 +57,7 @@ function Contact() {
       <h2
         style={{
           margin: "10px 0",
-          padding: "5px 20px",
+          padding: "3px 20px",
           color: "white",
           fontWeight: "600",
           backgroundColor: "#073e5c",
@@ -103,6 +103,7 @@ function Skills() {
       <div style={{ margin: "5px 0" }}>
         <h2
           style={{
+            fontSize: "21px",
             margin: "10px 0",
             padding: "5px 20px",
             color: "white",
