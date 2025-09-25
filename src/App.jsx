@@ -132,7 +132,14 @@ function Skills() {
 function Header() {
   return (
     <>
-      <p style={{ margin: "20px", fontSize: "17px", fontWeight: "300" }}>
+      <p
+        style={{
+          margin: "20px",
+          fontSize: "16px",
+          fontWeight: "400",
+          color: "#515151",
+        }}
+      >
         Detail-oriented and motivated IT student with a solid foundation in HTML
         and CSS, and proficiency in JavaScript, Luau, and Python. Strong
         problem-solving, communication, and collaboration skills, with a focus
@@ -175,7 +182,7 @@ function Education() {
     <>
       <h2
         style={{
-          margin: "10px 20px",
+          margin: "10px 10px 10px 20px",
           padding: "5px 0",
           color: "#01456d",
           fontWeight: "600",
@@ -217,7 +224,7 @@ function JobEntry(props) {
         <div style={{ margin: "0" }}>
           <h3
             style={{
-              fontSize: "20px",
+              fontSize: "21px",
               margin: "0",
               fontWeight: "600",
               color: "#292929",
@@ -259,7 +266,7 @@ function Experience() {
       <>
         <h2
           style={{
-            margin: "10px 20px",
+            margin: "10px 10px 10px 20px",
             padding: "5px 0",
             color: "#01456d",
             fontWeight: "600",
@@ -332,7 +339,7 @@ function SideBar() {
 function Body() {
   return (
     <>
-      <div style={{ width: "785px", display: "flex" }}>
+      <div style={{ width: "800px", display: "flex" }}>
         <SideBar></SideBar>
         <MainContent></MainContent>
       </div>
